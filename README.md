@@ -75,7 +75,7 @@ the 40-megapixel check is after decoding, not a decoder-memory guarantee.
 
 ## Credits and license
 
-Application: MIT, prepared for Shikhar Singh with ChatGPT assistance.
+Application: MIT. Maintainer: Shikhar Singh.
 OpenCV and its pretrained model are third-party work. The NASA educational
 sample and its annotated derivative have separate provenance in
 [examples/CREDITS.md](examples/CREDITS.md). Read [docs/PROVENANCE.md](docs/PROVENANCE.md).
