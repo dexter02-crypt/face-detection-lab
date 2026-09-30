@@ -1,0 +1,20 @@
+test_annotation_leaves_input_unchanged (test_face_detection.FaceDetectionTests.test_annotation_leaves_input_unchanged) ... ok
+test_blank_image_has_no_faces (test_face_detection.FaceDetectionTests.test_blank_image_has_no_faces) ... ok
+test_camera_failure_releases_device (test_face_detection.FaceDetectionTests.test_camera_failure_releases_device) ... ok
+test_cli_reports_bad_input_without_traceback (test_face_detection.FaceDetectionTests.test_cli_reports_bad_input_without_traceback) ... ok
+test_cli_runs_real_image_processing (test_face_detection.FaceDetectionTests.test_cli_runs_real_image_processing) ... ok
+test_existing_output_is_preserved (test_face_detection.FaceDetectionTests.test_existing_output_is_preserved) ... ok
+test_existing_report_is_preserved (test_face_detection.FaceDetectionTests.test_existing_report_is_preserved) ... ok
+test_image_and_json_outputs (test_face_detection.FaceDetectionTests.test_image_and_json_outputs) ... ok
+test_input_cannot_be_overwritten (test_face_detection.FaceDetectionTests.test_input_cannot_be_overwritten) ... ok
+test_invalid_configuration (test_face_detection.FaceDetectionTests.test_invalid_configuration) ... ok
+test_invalid_frames (test_face_detection.FaceDetectionTests.test_invalid_frames) ... ok
+test_invalid_image (test_face_detection.FaceDetectionTests.test_invalid_image) ... ok
+test_large_image_coordinates_map_back (test_face_detection.FaceDetectionTests.test_large_image_coordinates_map_back) ... ok
+test_pixelation_changes_detected_region (test_face_detection.FaceDetectionTests.test_pixelation_changes_detected_region) ... ok
+test_real_cascade_detects_sample_face (test_face_detection.FaceDetectionTests.test_real_cascade_detects_sample_face) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.603s
+
+OK
