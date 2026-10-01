@@ -5,6 +5,7 @@ import sys
 import tempfile
 import unittest
 from unittest.mock import patch
+import face_detection
 import cv2
 import numpy as np
 from face_detection.core import FaceBox, FaceDetector, annotate, process_image
@@ -12,6 +13,9 @@ from face_detection.core import FaceBox, FaceDetector, annotate, process_image
 ROOT = Path(__file__).resolve().parents[1]
 SAMPLE = ROOT / 'examples' / 'astronaut.png'
 class FaceDetectionTests(unittest.TestCase):
+    def test_package_version_matches_release(self):
+        self.assertEqual(face_detection.__version__, "0.1.0")
+
     @classmethod
     def setUpClass(cls):
         cls.detector = FaceDetector()
